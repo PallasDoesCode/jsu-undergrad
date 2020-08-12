@@ -1,0 +1,23 @@
+Possible Ways To Integrate Applet and the Website – WE USED OBJECT TAG
+
+	Applet Tag-
+		<applet code="DiscourseAnalysisApplet.class" archive="Applet.jar" width="1250" height="700">
+			<param name="xmlURL" value="Luke 1 - Shorter.xml" />
+		</applet>
+
+
+	Object Tag-
+		<object type="application/x-java-applet" width="1250" height="720">
+			<param name="archive" value="Applet.jar" />
+			<param name="code" value="DiscourseAnalysisApplet.class" />
+			<param name="xmlURL" value="Luke 1 - Shorter.xml" />
+		</object>
+
+	Script Tag-
+		<scriptsrc="http://java.com/js/deployJava.js"></script>
+		<script>
+			var attributes = {code:'DiscourseAnalysisApplet.class', archive:'Applet.jar', width:1250, height:720, xmlURL:'Luke 1 - Shorter.xml'};
+			var parameters = {fontSize:16};
+			var version = '1.7';
+			deployJava.runApplet(attributes, parameters, version);
+		</script>

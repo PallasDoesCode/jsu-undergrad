@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<book bookName="Luke 1">
+	<clause>
+		<conj>X</conj>
+		<text chapter="1" verse="1"> it seemed good to me <pconj>also,</pconj></text>
+	</clause>
+	<clause>
+		<conj>X</conj>
+		<text chapter="1" verse="1"> having had perfect understanding of all things from the very first</text>
+	</clause>
+	<clause>
+		<conj>x</conj>
+		<text chapter="1" verse="1"> to write you an orderly account, [most] excellent Theophilius</text>
+	</clause>
+	<clause>
+		<conj>and</conj>
+		<text chapter= "1" verse= "1"></text>
+		</clause>
+	<clause>
+		<conj>that</conj>
+		<text chapter="1" verse="4"> you may know the certainty of those things in which you were instructed</text>
+	</clause>
+	<clause>
+		<conj>X</conj>
+		<text chapter="1" verse="5"> There was in the days of Herod, the king of Judea <pconj>and</pconj> a certain priest named Zacharias</text>
+	</clause>
+	<clause>
+		<conj>X</conj>
+		<text chapter="1" verse="5"> his wife[was] of the daughters of Aaron</text>
+	</clause>
+	<clause>
+		<conj>and</conj>
+		<text chapter="1" verse="5"> her name [was] Elizabeth.</text>
+	</clause>
+	<clause>
+		<conj>So</conj>
+		<text chapter="1" verse="8"> it was,</text>
+	</clause>
+	<clause>
+		<conj>that</conj>
+		<text chapter="1" verse="8"> while he was serving <pconj>as</pconj> priest </text>
+		<text chapter="1" verse="9"> before God in the order of his division,</text>
+	</clause>
+	<clause>
+		<conj>and</conj>
+		<text chapter="1" verse="10"> the whole multitude of the people was praying outside at the hour of incense</text>
+	</clause>
+	<clause>
+		<conj>but</conj>
+		<text chapter="1" verse="10"></text>
+	</clause>
+	<clause>
+		<conj>therefore</conj>
+		<text chapter="1" verse="10"> it was done.</text>
+	</clause>
+</book>

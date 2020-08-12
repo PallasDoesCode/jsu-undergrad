@@ -1,0 +1,602 @@
+body
+{
+    
+}
+
+#header
+{
+    width: 100%;
+    text-align: center;
+}
+
+#menu
+{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:80%;
+    background: #F5D0A9;
+    position: relative;
+    background: #e51616;
+    box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    background-image: -moz-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+}
+
+#menu:before, #menu:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    top: 63px;
+    z-index: -1;
+}
+
+#menu:before
+{
+    border-width: 0 50px 50px 0;
+    border-right-color: #222;
+    left: 0;
+}
+
+#menu:after
+{
+    border-width: 0 0 25px 25px;
+    border-left-color: #222;
+    right: 0;
+}
+
+#navigation
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    z-index: 5;
+    position: relative;
+}
+
+#navigation li
+{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+
+#navigation a
+{
+    display: block;
+    padding: 5px;
+    vertical-align: central;
+    text-decoration: none;
+}
+
+#navigation a:hover
+{
+    text-decoration: underline;
+    background-color:#acacac;
+}
+
+#navigation ul
+{
+    list-style: none;
+    position: absolute;
+    left:-9999px;
+}
+
+#navigation ul li
+{
+    padding-top: 1px;
+    float: none;
+}
+
+#navigation ul a
+{
+    white-space: nowrap;
+}
+
+#navigation li:hover ul
+{
+    left: -40px;
+}
+
+#navigation li:hover a
+{
+    text-decoration: underline;
+}
+
+#navigation li:hover ul a
+{
+    text-decoration: none;
+}
+
+#navigation li:hover ui li a:hover
+{
+    background-color: grey;
+}
+
+.container
+{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #F6F6F6;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 4px 2px rgba(0,0,0,.3);
+    height: auto;
+    margin-top: -17px;
+}
+
+#LoginField
+{
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+#registration
+{
+    font-family: Verdana;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+#description
+{
+    padding-top: 10px;
+	width: 750px;
+	padding: 40px 0px;
+	margin: 0 auto;
+}
+
+.sidenotes
+{
+    font-size: small;
+    font-family: Arial;
+}
+
+p
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.navButton
+{
+    width:225px;
+    font-weight:bold;
+    color:#000000;
+    vertical-align: central;
+    background-color:#E6E6E6;
+    text-align:center;
+    padding:5px;
+    font-family: Verdana;
+    text-decoration:none;
+    border: 1px inset white;
+    border-radius: 8px;
+    -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    color:#333;
+    background-color:#F6F6F6;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:none;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:16px;
+    font-weight:700;
+    padding:4px 16px;
+    border: 1px solid black;
+}
+
+#nav
+{ 
+    border: 2px solid black;
+    text-align: center; 
+}
+
+#upload
+{
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 10px;
+	
+}
+
+#uploadarea
+{
+	font-family: Arial;
+}
+
+#fileMenuOptions
+{
+	margin-left: 160px;
+}
+
+#projectTable
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	top:-10%;
+	padding-bottom: 30px;
+}
+
+#myFileHeaderTable
+{
+    border-spacing: 5;
+    border-collapse: collapse;
+    width: 100%;
+}
+#myFileHeaderTable th
+{
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    height: 30px;
+    background-color: white;
+    font-size: large;
+}
+
+#myFileHeaderTable th.checkbox
+{
+    width: 4.9%;
+    border-left: 1px solid black;
+}
+
+#myFileHeaderTable th.fileName
+{
+    width: 58.9%;
+}
+
+#myFileHeaderTable th.fileSize
+{
+    width: 9.9%;
+}
+
+#myFileHeaderTable th.lastUpdate
+{
+    width: 14.7%;
+}
+
+#myFileHeaderTable th.owner
+{
+    width: 9.8%;
+    border-right: 1px solid black;
+}
+
+#myFileHeaderTable td.empty
+{
+    width:6%;
+}
+
+#myFileTable
+{
+    border: 1px solid black;
+    border-spacing: 5;
+    border-collapse: collapse;
+    width: 95%;
+	margin: 0 auto;
+    background-color: white;
+}
+
+#myFileTable th
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#myFileTable td
+{
+    border-left: 1px solid black;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+#myFileTable td.checkbox
+{
+    width: 5%;
+}
+
+#myFileTable td.fileName
+{
+    width: 60%;
+}
+
+#myFileTable td.fileSize
+{
+    width: 10%;
+}
+
+#myFileTable td.lastUpdate
+{
+    width: 15%;
+}
+
+#myFileTable td.owner
+{
+    width: 10%;
+}
+
+.evenTableRow
+{
+    background-color: #D6D6D6;
+}
+
+#loginMsg
+{
+	color:red;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.loginForm
+{
+	background: #E3CDA4;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #2F343B;
+	width: 300px;
+	margin: 60px auto 30px;
+	padding: 10px;
+	position: relative;	
+}
+
+.loginForm .field 
+{
+	position: relative;
+}
+
+.loginForm input[type=text],
+.loginForm input[type=password] 
+{
+	font-size: 13px;
+	width: 75%;
+	margin: 0px;
+	
+}
+
+.loginForm .submit
+{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 17px;
+	right: 0px;
+	padding: 10px;
+	z-index: 2;
+}
+
+#uploadForm, #settingsForm
+{
+	background: #E3CDA4;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #2F343B;
+	width: 400px;
+	margin: 60px auto 30px;
+	padding: 10px;
+	position: relative;	
+}
+
+#settingsForm input
+{
+
+}
+
+#settingsForm label
+{
+    display: inline-block;
+    width: 130px;
+}
+
+.pull-right
+{
+	float: right;
+	margin: 0px 20px;
+}
+
+.leftButtonPanel
+{
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	height: 30px;
+}
+
+.leftButtonPanel li
+{
+	padding-bottom: 20px;
+	list-style: none;
+	display: inline-block;
+}
+
+#userOptions, #fileOptions
+{
+	margin: 10px 0px 0px 50px;
+}
+
+#add, #delete, #toggleBtn
+{
+	background-color: #E7E7E7;
+	width: 70px;
+	height: 25px;
+	max-height: 25px;
+	border: 0px;
+	padding: 0px;
+	border: 1px solid #D3D3D3;
+	border-radius: 2px;
+}
+
+#edit
+{
+    background-color: #E7E7E7;
+    width: 140px;
+    height: 25px;
+    max-height: 25px;
+    border: 0px;
+    padding: 0px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+}
+
+#uploadBtn, #editBtn
+{
+	background-color: #E7E7E7;
+	width: 140px;
+	max-width: 140px;
+	height: 25px;
+	max-height: 25px;
+	border: 0px;
+	padding: 0px;
+	border: 1px solid #D3D3D3;
+	border-radius: 2px;
+}
+
+#userOptions > button:hover, #fileOptions > form > button:hover
+{
+	border: 1px solid #A9A9A9;
+}
+
+#heading
+{
+	width: 750px;
+	margin: 5px auto;
+	font-family: Thorndale, serif;
+	text-align: center;
+	padding: 2px 0px;
+}
+
+#text p
+{
+	font-family: Arial, sans-serif;
+	margin: 40px 0px;
+}
+
+
+#closing p
+{
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+#userTable
+{
+	width: 95%;
+	margin: 0 auto;
+	padding: 4px;	/* Used in place of inline cellpadding */
+	border-spacing: 3px;	/* Used in place of inline cellspacing */
+	border-collapse: collapse; /*  Helps border-spacing to work on anything before IE8 */
+}
+
+#userTable > tr > td
+{
+	padding: 0px 5px;
+}
+
+.columnHeading
+{
+	font-weight: bold;
+	text-align: left;
+	padding: 0px 20px;
+}
+
+.userDetailsCell
+{
+	padding: 0px 20px;
+}
+
+#uploadTable
+{
+	width: 40%;
+	margin: 0 auto;
+	border: 2px solid gray;
+	page-break-before: always
+	padding: 2px;
+	border-spacing: 3px;
+	border-collapse: collapse;
+}
+
+.regHeader
+{
+	margin: 0 auto;
+	width:300px; 
+	background-color: #E65C00; 
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.regHeader:before 
+{
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	border-width:0 30px 30px 0;
+	border-style:solid;
+	border-color:#F6F6F6 #F6F6F6 #E65C00 #E65C00;
+	background:#E65C00;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	display:block; 
+	width:0;
+}
+
+input[type=text], input[type=password]
+{
+	border-radius: 3px;
+	height: 25px;
+	border: 1px solid white;
+	background-color: #FAFAFA;
+}
+
+#RegisterHeading
+{
+	text-align: left;
+	padding:5px;
+	color: white;
+	font-family: Impact, Charcoal, sans-serif; 
+}
+
+.registerErrorText
+{
+	color: #0000FF;
+}
+
+#captcha
+{
+	border: 1px solid #2F343B;
+}
+
+.captchaErrorMsg
+{
+	color: red;
+}
+
+table > tbody > tr:nth-child(even) > td
+{
+	background-color: #D6D6D6;
+}
+
+#workspace
+{
+    width: 80%;
+    height: 600px;
+    overflow: auto;
+    margin: 0px auto;
+}
